@@ -1,0 +1,15 @@
+@import 'base/base';
+@import 'base/reset';
+
+* {
+  box-sizing: border-box;
+}
+.clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+

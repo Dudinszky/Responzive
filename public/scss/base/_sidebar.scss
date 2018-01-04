@@ -1,0 +1,229 @@
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: -369px;
+  width: 369px;
+  color: #000000;
+  box-shadow: 0 8px 27px rgba(172, 190, 213, 0.32);
+  background-color: #ffffff;
+  transition:  0.5s ;
+}
+
+.active {
+  left: 0;
+}
+
+.sidebar__btn {
+  position: absolute;
+  width: 55px;
+  height: 58px;
+  background: #fff;
+  border-right: 1px solid  #ededed;
+  border-left: none;
+  border-top: none;
+  border-bottom: none;
+  vertical-align: middle;
+  cursor: pointer;
+  top: -2px;
+  left: 372px;
+
+  .sidebar__icon {
+    height: 2px;
+    width: 19px;
+    background: #000;
+    display: block;
+    position: absolute;
+    top: 23px;
+    left: 15px;
+    &:before {
+      content: '';
+      position: absolute;
+      top: 5px;
+      left: 0;
+      background: #000;
+      width: 19px;
+      height: 2px;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      top: 10px;
+      left: 0;
+      background: #000;
+      width: 19px;
+      height: 2px;
+    }
+  }
+}
+
+.sidebar__header {
+  padding-top: 52px;
+  color: #000000;
+  font-family: 'Lobster';
+  font-size: 48px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+}
+
+.sidebar__txt {
+  padding-top: 19px;
+  padding-bottom: 69px;
+  opacity: 0.5;
+  color: #000000;
+  font-family: 'FuturaLight';
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.65px;
+}
+
+.sidebar__content {
+  padding: 0 48px 48px 45px;
+  border-bottom: 2px solid #e5e5e5;
+
+  .sidebar__navigation {
+    //display: block;
+
+    .sidebar__navigation-item {
+      padding: 20px 0 20px 0;
+      border-bottom: 2px solid #e5e5e5;
+      font-family: 'FuturaBold';
+      text-transform: uppercase;
+
+      &.b-bottom {
+        border: none;
+      }
+    }
+
+    .sidebar__navigation-drop {
+      display: none;
+      &:hover {
+        display: block;
+      }
+    }
+
+  }
+}
+
+.sidebar__social-wrap {
+  padding: 0 48px 48px 45px;
+  border-bottom: 2px solid #e5e5e5;
+
+  .sidebar__social-nav {
+    padding: 51px 0 62px 0;
+    float: left;
+
+    .sidebar__social-item {
+      margin-right: 37px;
+      float: left;
+      width: 18px;
+    }
+  }
+
+  .sidebar__subscribe {
+    float: left;
+    width: 100%;
+    text-align: left;
+
+    .sidebar__mail-icon {
+      float: left;
+      margin-top: 3px;
+    }
+
+    .sidebar__subscribe-wrap {
+      padding-left: 40px;
+
+      .sidebar__subscribe-header {
+        float: left;
+        color: #000000;
+        font-family: 'FuturaBold';
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 24px;
+        text-transform: uppercase;
+        letter-spacing: 1.8px;
+        margin-right: 10px;
+      }
+
+      .sidebar__subscribe-txt {
+        width: 200px;
+        font-family: "FuturaMedium";
+        font-size: 18px;
+        font-weight: 200;
+        line-height: 24px;
+        text-transform: uppercase;
+        letter-spacing: 1.8px;
+      }
+    }
+
+    .sidebar__search {
+      float: left;
+      margin-top: 31px;
+      width: 179px;
+      height: 45px;
+      border: 2px solid #e5e5e5;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 18px;
+      letter-spacing: 0.4px;
+      padding-left: 19px;
+      color: #efefef;
+
+    }
+
+    .sidebar__subscribe-btn {
+      float: left;
+      margin-top: 31px;
+      width: 97px;
+      height: 45px;
+      background-color: #000000;
+      border: none;
+      text-align: center;
+      padding: 13px;
+      cursor: pointer;
+
+      .sidebar__subscribe-btn--txt {
+        color: #fff;
+        font-family: 'FuturaMedium';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        text-transform: uppercase;
+        letter-spacing: 2.4px;
+      }
+    }
+  }
+}
+  .sidebar__end-content {
+    padding: 0 48px 6px 45px;
+
+    .sidebar__end-navigation {
+      padding-top: 42px;
+
+      .sidebar__end-navigation--item {
+        display: block;
+        text-align: left;
+        padding-bottom: 42px;
+        color: #000000;
+        font-family: 'FuturaMedium';
+        font-size: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

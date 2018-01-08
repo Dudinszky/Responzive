@@ -1,35 +1,11 @@
 @font-face {
-  font-family: 'FuturaBold';
-  src: url('../fonts/futura-bold/FuturaBold.woff2'),
-       url('../fonts/futura-bold/FuturaBold.woff');
+  font-family: 'RegularWeb';
+  src: url('../fonts/webregular/regular-web.woff2'),
+       url('../fonts/webregular/regular-web.woff');
 }
 
 @font-face {
-  font-family: 'FuturaMedium';
-  src: url('../fonts/futura-medium/FuturaMedium.woff2'),
-       url('../fonts/futura-medium/FuturaMedium.woff');
-}
-
-@font-face {
-  font-family: 'FuturaLight';
-  src: url('../fonts/futura-light/FuturaLight.woff2'),
-       url('../fonts/futura-light/FuturaLight.woff');
-}
-
-@font-face {
-  font-family: 'Gotham';
-  src: url('../fonts/gotham/gotham.woff2'),
-       url('../fonts/gotham/gotham.woff');
-}
-
-@font-face {
-  font-family: 'GothamUltra';
-  src: url('../fonts/gotham-ultra/GothamUltra.woff2'),
-       url('../fonts/gotham-ultra/GothamUltra.woff');
-}
-
-@font-face {
-  font-family: 'Lobster';
-  src: url('../fonts/lobster/lobster.woff2'),
-       url('../fonts/lobster/lobster.woff');
+  font-family: 'BoldWeb';
+    src: url('../fonts/webbold/web-bold.woff2'),
+    url('../fonts/webbold/web-bold.woff');
 }

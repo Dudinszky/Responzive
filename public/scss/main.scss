@@ -4,9 +4,12 @@
 
 @import 'utilities/mixins';
 
+@import "base/media";
+
 * {
   box-sizing: border-box;
 }
+
 .clearfix {
   &:before,
   &:after{
@@ -24,10 +27,12 @@
 
   .welcome_icon {
     float: left;
+    margin-left: 61px;
   }
 
   .welcome_nav {
     float: right;
+    margin-right: 35px;
 
     .welcome_nav-list {
       width: 77px;
@@ -107,7 +112,11 @@
 
   .service_box-wrap {
     margin-top: 83px;
+    padding-bottom: 128px;
 
+    .service_box {
+
+    }
 
     .service_box-title-A {
       @include BigBoxFont;
@@ -137,7 +146,6 @@
       @include MiniBoxFont;
       text-align: center;
       color: #ffffff;
-      padding-bottom: 128px;
       margin-top: 27px;
     }
     .rocket-img {
@@ -173,6 +181,10 @@
     margin: 0;
   }
 
+  .team_box {
+    padding-bottom: 128px;
+  }
+
   .team_box-name {
     @include BigBoxFont;
     color: #27283d;
@@ -197,27 +209,24 @@
   }
 
   .team_box-navigation {
-    padding-bottom: 128px;
+    display: inline-block;
+  }
 
-    .team_box-list {
-      float: left;
-      margin-right: 10px;
-      width: 32px;
-      height: 32px;
-      background-color: #bdd1df;
-      border-radius: 50%;
-      list-style: none;
-      padding: 6px;
-      cursor: pointer;
-    }
+  .team_box-navigation-padding {
+    padding-left: 8px;
+    display: inline-block;
+  }
 
-    .margin-left {
-      margin-left: 43px;
-    }
-
-    .margin-left-more {
-      margin-left: 65px;
-    }
+  .team_box-list {
+    margin-right: 10px;
+    float: left;
+    width: 32px;
+    height: 32px;
+    background-color: #bdd1df;
+    border-radius: 50%;
+    list-style: none;
+    padding: 6px;
+    cursor: pointer;
   }
 }
 
@@ -342,7 +351,7 @@
   padding-top: 119px;
   background-color: #d54980;
   text-align: center;
-  
+
   .people_header {
     @include BigFont;
     color: #ffffff;
@@ -366,7 +375,8 @@
 
   .people_box-txt--wrap {
     text-align: left;
-    
+    margin-left: 30px;
+
     .people_box-txt {
       text-align: left;
       color: #ffffff;
@@ -376,6 +386,7 @@
       line-height: 31.2px;
       letter-spacing: 0.35px;
       margin: 0;
+
     }
 
     .people_box-txt--header {
@@ -408,16 +419,16 @@
   text-align: center;
 
   ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: pink;
+    color: #ffffffff;
   }
   ::-moz-placeholder { /* Firefox 19+ */
-    color: pink;
+    color: #ffffffff;
   }
   :-ms-input-placeholder { /* IE 10+ */
-    color: pink;
+    color: #ffffffff;
   }
   :-moz-placeholder { /* Firefox 18- */
-    color: pink;
+    color: #ffffffff;
   }
 
   .sub_header {
@@ -522,6 +533,9 @@
     }
   }
 }
+
+
+
 
 
 

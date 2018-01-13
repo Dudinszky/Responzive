@@ -52,3 +52,16 @@ gulp.task('default', function () {
     // gulp.watch(paths.css, ['css']);
     gulp.watch(paths.js, ['js']);
 });
+
+
+var server = require('gulp-server-livereload');
+
+gulp.task('default', function() {
+    gulp.src('')
+        .pipe(server({
+            livereload: true,
+            directoryListing: false,
+            defaultFile: 'index.html',
+            open: false
+        }));
+});

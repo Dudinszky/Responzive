@@ -143,6 +143,85 @@ table {
   font-family: 'BoldWeb';
   src: url("../fonts/webbold/web-bold.woff2"), url("../fonts/webbold/web-bold.woff"); }
 
+@media screen and (max-width: 1023px) {
+  .service_box-wrap {
+    padding-bottom: 30px !important; }
+  .servie_box {
+    padding-bottom: 0; }
+  .service_box-txt {
+    padding-bottom: 50px; } }
+
+@media screen and (max-width: 767px) {
+  .header {
+    font-size: 30px !important; }
+  .service_header {
+    font-size: 30px !important; } }
+
+@media screen and (max-width: 1023px) {
+  .team_box {
+    padding-bottom: 60px !important; }
+  .team_box-navigation {
+    text-align: center;
+    padding-bottom: 23px; }
+  .team_box-navigation-padding {
+    padding-left: 20px; } }
+
+@media screen and (max-width: 767px) {
+  .team_header {
+    font-size: 30px !important; } }
+
+@media screen and (max-width: 1023px) {
+  .skill {
+    padding-bottom: 60px !important; }
+  .skill_box {
+    padding-bottom: 30px; }
+  .port_btn {
+    margin-bottom: 60px !important; } }
+
+@media screen and (max-width: 767px) {
+  .skill {
+    padding-bottom: 30px !important; }
+  .skill_header {
+    font-size: 30px !important; }
+  .skill_box {
+    margin-bottom: 60px !important; } }
+
+@media screen and (max-width: 767px) {
+  .port_header {
+    font-size: 30px !important; }
+  .port_box-image {
+    width: 60% !important;
+    display: inline-block; }
+  .port_btn {
+    margin-bottom: 60px !important; } }
+
+@media screen and (max-width: 1023px) {
+  .niceform {
+    float: left;
+    margin-left: 70px;
+    width: 80%; }
+  .sub_enter-wrap {
+    margin: 0 !important; }
+  .sub_name {
+    width: 40% !important; }
+  .sub_email {
+    width: 40% !important; }
+  .sub_massage-wrap {
+    margin: 0 !important; }
+  .sub_massage {
+    width: 80% !important; }
+  .sub_btn {
+    margin-bottom: 60px !important; } }
+
+@media screen and (max-width: 767px) {
+  .sub_header {
+    font-size: 30px !important; }
+  .niceform {
+    float: left !important;
+    padding-bottom: 30px; }
+  .sub_name {
+    margin-right: 10px !important; } }
+
 * {
   box-sizing: border-box; }
 
@@ -156,9 +235,11 @@ table {
   padding-top: 70px;
   text-align: center; }
   .welcome .welcome_icon {
-    float: left; }
+    float: left;
+    margin-left: 61px; }
   .welcome .welcome_nav {
-    float: right; }
+    float: right;
+    margin-right: 35px; }
     .welcome .welcome_nav .welcome_nav-list {
       width: 77px;
       height: 32px;
@@ -234,7 +315,8 @@ table {
     color: #ffffff;
     padding-top: 13px; }
   .service .service_box-wrap {
-    margin-top: 83px; }
+    margin-top: 83px;
+    padding-bottom: 128px; }
     .service .service_box-wrap .service_box-title-A {
       font-family: "RegularWeb";
       font-size: 24px;
@@ -279,7 +361,6 @@ table {
       letter-spacing: 0.32px;
       text-align: center;
       color: #ffffff;
-      padding-bottom: 128px;
       margin-top: 27px; }
 
 .team {
@@ -313,6 +394,8 @@ table {
     letter-spacing: 0.36px;
     padding: 13px 0 78px 0;
     margin: 0; }
+  .team .team_box {
+    padding-bottom: 128px; }
   .team .team_box-name {
     font-family: "RegularWeb";
     font-size: 24px;
@@ -341,21 +424,20 @@ table {
     margin: 0;
     padding: 30px 0 36px 0; }
   .team .team_box-navigation {
-    padding-bottom: 128px; }
-    .team .team_box-navigation .team_box-list {
-      float: left;
-      margin-right: 10px;
-      width: 32px;
-      height: 32px;
-      background-color: #bdd1df;
-      border-radius: 50%;
-      list-style: none;
-      padding: 6px;
-      cursor: pointer; }
-    .team .team_box-navigation .margin-left {
-      margin-left: 43px; }
-    .team .team_box-navigation .margin-left-more {
-      margin-left: 65px; }
+    display: inline-block; }
+  .team .team_box-navigation-padding {
+    padding-left: 8px;
+    display: inline-block; }
+  .team .team_box-list {
+    margin-right: 10px;
+    float: left;
+    width: 32px;
+    height: 32px;
+    background-color: #bdd1df;
+    border-radius: 50%;
+    list-style: none;
+    padding: 6px;
+    cursor: pointer; }
 
 .skill {
   background-color: #ffffff;
@@ -516,7 +598,8 @@ table {
     float: left;
     margin-right: 48px; }
   .people .people_box-txt--wrap {
-    text-align: left; }
+    text-align: left;
+    margin-left: 30px; }
     .people .people_box-txt--wrap .people_box-txt {
       text-align: left;
       color: #ffffff;
@@ -554,16 +637,16 @@ table {
   text-align: center; }
   .sub ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-    color: pink; }
+    color: #ffffffff; }
   .sub ::-moz-placeholder {
     /* Firefox 19+ */
-    color: pink; }
+    color: #ffffffff; }
   .sub :-ms-input-placeholder {
     /* IE 10+ */
-    color: pink; }
+    color: #ffffffff; }
   .sub :-moz-placeholder {
     /* Firefox 18- */
-    color: pink; }
+    color: #ffffffff; }
   .sub .sub_header {
     font-family: "RegularWeb";
     font-size: 40px;

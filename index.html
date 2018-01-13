@@ -4,35 +4,39 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="public/css/main.css">
-    <link rel="stylesheet" href="public/css/skeleton.css">
-
+    <script src="public/jquery/jquery.js"></script>
+    <script src="public/js/scroll.js"></script>
+    <link rel="stylesheet" href="public/css/grids.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="public/css/grids-responsive.css">
 </head>
 <body>
 
 <div class="welcome">
     <div class="container">
-        <div class="row">
+        <div class="pure-u">
             <div class="welcome_icon">
-                <img src="public/icons/logo.png" class="welcome_icon-img"/></div>
+                <img src="public/icons/logo.png" class="welcome_icon-img"/>
+            </div>
             <ul class="welcome_nav">
-                <li class="welcome_nav-list"><a href="#" class="welcome_nav-link">HOME</a></li>
-                <li class="welcome_nav-list"><a href="#" class="welcome_nav-link">ABOUT</a></li>
-                <li class="welcome_nav-list"><a href="#" class="welcome_nav-link">WORK</a></li>
-                <li class="welcome_nav-list"><a href="#" class="welcome_nav-link">BLOG</a></li>
-                <li class="welcome_nav-list"><a href="#" class="welcome_nav-link">CONTACT</a></li>
+                <li class="welcome_nav-list"><a href="#service" class="welcome_nav-link">SERVICE</a></li>
+                <li class="welcome_nav-list"><a href="#team" class="welcome_nav-link">TEAM</a></li>
+                <li class="welcome_nav-list"><a href="#work" class="welcome_nav-link">WORK</a></li>
+                <li class="welcome_nav-list"><a href="#blog" class="welcome_nav-link">BLOG</a></li>
+                <li class="welcome_nav-list"><a href="#contact" class="welcome_nav-link">CONTACT</a></li>
             </ul>
             <h5 class="header clearfix">Hi there! We are the new kids on the block<br>
                 and we build awesome websites and mobile apps.</h5>
             <button class="welcome_btn">
-                <a href="#" class="welcome_btn-link">Work with us!</a>
+                <a href="javascript:;" class="welcome_btn-link">Work with us!</a>
             </button>
         </div>
     </div>
 </div>
 
-<div class="service">
+<div class="service" id="service">
     <div class="container">
-        <div class="row">
+        <div class="pure-u">
             <h5 class="service_header">SERVICES WE PROVIDE</h5>
             <span class="service_line"></span>
             <p class="service_txt">We are working with both individuals and businesses from all over the globe<br>
@@ -40,7 +44,7 @@
 
             <div class="service_box-wrap">
 
-                <div class="service_box three columns">
+                <div class="service_box pure-u-md-1-3 pure-u-lg-1-4">
                     <div class="service_box-img">
                         <img src="public/img/flag.png" />
                     </div>
@@ -49,7 +53,7 @@
                         consectetuer adipiscing elit,<br> sed diam nonummy nibh.</p>
                 </div>
 
-                <div class="service_box three columns">
+                <div class="service_box pure-u-md-1-3 pure-u-lg-1-4">
                     <div class="service_box-img">
                         <img src="public/img/pen.png" />
                     </div>
@@ -58,7 +62,7 @@
                         sit<br> voluptatem  </p>
                 </div>
 
-                <div class="service_box three columns">
+                <div class="service_box pure-u-md-1-3 pure-u-lg-1-4">
                     <div class="service_box-img">
                         <img src="public/img/gears-icon.png" />
                     </div>
@@ -67,7 +71,7 @@
                         iusto odio dignissimos qui<br> blanditiis praesentium.</p>
                 </div>
 
-                <div class="service_box three columns">
+                <div class="service_box pure-u-md-1-3 pure-u-lg-1-4">
                     <div class="service_box-img b-padding">
                         <img src="public/img/rocket.png" class="rocket-img"/>
                     </div>
@@ -80,16 +84,16 @@
     </div>
 </div>
 
-<div class="team">
+<div class="team" id="team">
     <div class="container">
-        <div class="row">
+        <div class="pure-u">
             <h5 class="team_header">MEET OUR BEAUTIFUL TEAM</h5>
             <span class="team_line"></span>
             <p class="team_txt">We are a small team of designers and developers, who help brands with big ideas.</p>
 
             <div class="team_box-wrap">
 
-                <div class="team_box three columns">
+                <div class="team_box pure-u-md-1-3 pure-u-lg-1-4">
                     <div class="team_box-image">
                         <img src="public/img/mugshot.png"/>
                     </div>
@@ -98,8 +102,8 @@
                     <p class="team_box-txt">Lorem ipsum dolor sit amet,<br>
                         consectetuer adipiscing elit,<br> sed diam nonummy nibh<br> euismod tincidunt ut laoreet<br> dolore magna.</p>
 
-                        <ul class="team_box-navigation">
-                            <li class="team_box-list margin-left">
+                        <ul class="team_box-navigation ">
+                            <li class="team_box-list">
                                 <a class="team_box-link" href="#"> <img src="public/icons/facebook.png"/></a>
                             </li>
                             <li class="team_box-list">
@@ -114,16 +118,16 @@
                         </ul>
                 </div>
 
-                <div class="team_box three columns">
+                <div class="team_box pure-u-md-1-3 pure-u-lg-1-4">
                     <div class="team_box-image">
                         <img src="public/img/mugshot.png"/>
                     </div>
                     <h5 class="team_box-name">KATE UPTON</h5>
                     <a href="#" class="team_box-link">Creative Director</a>
                     <p class="team_box-txt">Duis aute irure dolor in in<br> voluptate velit esse cillum<br> dolore fugiat nulla pariatur.<br>
-                        Excepteur sint occaecat non<br> diam proident.
+                        Excepteur sint occaecat non<br> diam proident.</p>
 
-                    <ul class="team_box-navigation ">
+                    <ul class="team_box-navigation-padding">
                         <li class="team_box-list margin-left-more">
                             <a class="team_box-link" href="#"> <img src="public/icons/twitter.png"/></a>
                         </li>
@@ -136,7 +140,7 @@
                     </ul>
                 </div>
 
-                <div class="team_box three columns">
+                <div class="team_box pure-u-md-1-3 pure-u-lg-1-4">
                     <div class="team_box-image">
                         <img src="public/img/mugshot.png"/>
                     </div>
@@ -145,7 +149,7 @@
                     <p class="team_box-txt">Nemo enim ipsam voluptas<br> sit aspernatur aut odit aut<br> fugit, sed quia consequuntur<br>
                         magni dolores eos qui ratione<br> voluptatem nesciunt.</p>
 
-                    <ul class="team_box-navigation">
+                    <ul class="team_box-navigation ">
                         <li class="team_box-list margin-left">
                             <a class="team_box-link" href="#"> <img src="public/icons/facebook.png"/></a>
                         </li>
@@ -161,7 +165,7 @@
                     </ul>
                 </div>
 
-                <div class="team_box three columns">
+                <div class="team_box pure-u-md-1-3 pure-u-lg-1-4">
                     <div class="team_box-image">
                         <img src="public/img/mugshot.png"/>
                     </div>
@@ -170,7 +174,7 @@
                     <p class="team_box-txt">Sed ut perspiciatis unde<br> omnis iste natus error sit<br> voluptatem accusantium<br> doloremque
                         laudantium,<br> totam rem aperiam.</p>
 
-                    <ul class="team_box-navigation">
+                    <ul class="team_box-navigation-padding">
                         <li class="team_box-list margin-left-more">
                             <a class="team_box-link" href="#"> <img src="public/icons/facebook.png"/></a>
                         </li>
@@ -187,9 +191,9 @@
     </div>
 </div>
 
-<div class="skill">
+<div class="skill" id="work">
     <div class="container">
-        <div class="row">
+        <div class="pure-u">
             <h5 class="skill_header">WE GOT SKILL!</h5>
             <span class="skill_line"></span>
             <div class="skill_txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br>
@@ -197,28 +201,28 @@
 
             <div class="skill_box-wrap">
 
-                <div class="skill_box three columns">
+                <div class="skill_box pure-u-md-1-3 pure-u-lg-1-4">
                     <div class="skill_box-img">
                         <img src="public/img/one.png"/>
                     </div>
                     <a href="#" class="skill_box-link">WEB DESIGN</a>
                 </div>
 
-                <div class="skill_box three columns">
+                <div class="skill_box pure-u-md-1-3 pure-u-lg-1-4">
                     <div class="skill_box-img">
                         <img src="public/img/two.png"/>
                     </div>
                     <a href="#" class="skill_box-link">HTML / CSS</a>
                 </div>
 
-                <div class="skill_box three columns">
+                <div class="skill_box pure-u-md-1-3 pure-u-lg-1-4">
                     <div class="skill_box-img">
                         <img src="public/img/three.png"/>
                     </div>
                     <a href="#" class="skill_box-link">GRAPHIC DESIGN</a>
                 </div>
 
-                <div class="skill_box three columns">
+                <div class="skill_box pure-u-md-1-3 pure-u-lg-1-4">
                     <div class="skill_box-img">
                         <img src="public/img/four.png"/>
                     </div>
@@ -229,9 +233,9 @@
     </div>
 </div>
 
-<div class="port">
+<div class="port" id="blog">
     <div class="container">
-        <div class="row">
+        <div class="pure-u">
             <h5 class="port_header">OUR PORTFOLIO!</h5>
             <span class="port_line"></span>
             <p class="port_txt">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet<br>
@@ -244,29 +248,29 @@
             </ul>
 
             <div class="port_box-wrap">
-                <div class="row">
-                    <div class="port_box-A six columns">
-                        <div class="port_box-image">
-                            <img src="public/img/one-mac.png" class="port_box-img"/>
+                <div class="pure-u">
+                    <div class="port_box-A pure-u-md-1-3 pure-u-lg-1-3">
+                        <div class="port_box-image ">
+                            <img src="public/img/one-mac.png" class="port_box-img pure-u-3"/>
                         </div>
                         <p class="port_box-txt">Isometric Perspective Mock-Up</p>
                     </div>
-                    <div class="port_box-A six columns">
-                        <div class="port_box-image">
+                    <div class="port_box-A pure-u-2 pure-u-md-1-3 pure-u-lg-1-3">
+                        <div class="port_box-image pure-u-1">
                             <img src="public/img/two-mac.png" class="port_box-img"/>
                         </div>
                         <p class="port_box-txt">Time Zone App UI</p>
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="port_box-B six columns">
-                        <div class="port_box-image">
+                <div class="pure-u">
+                    <div class="port_box-B pure-u-md-1-3 pure-u-lg-1-3">
+                        <div class="port_box-image ">
                             <img src="public/img/three-mac.png" class="port_box-img"/>
                         </div>
                         <p class="port_box-txt">Viro Media Players UI</p>
                     </div>
-                    <div class="port_box-B six columns">
+                    <div class="port_box-B six pure-u-md-1-3 pure-u-lg-1-3">
                         <div class="port_box-image">
                             <img src="public/img/four-mac.png" class="port_box-img"/>
                         </div>
@@ -284,15 +288,15 @@
 
 <div class="people">
     <div class="container">
-        <div class="row">
+        <div class="pure-u">
             <h5 class="people_header">WHAT POEPLE SAY ABOUT US</h5>
             <span class="people_line"></span>
             <p class="people_txt">Our clients love us!</p>
 
             <div class="people_box-wrap">
-                <div class="row">
+                <div class="pure-u">
 
-                    <div class="people_box-B six columns">
+                    <div class="people_box-B pure-u-md-1-3 pure-u-lg-1-3">
                         <div class="people_box-image-wrap">
                             <img src="public/img/base.png" class="people_box-img"/>
                         </div>
@@ -304,7 +308,7 @@
                         </div>
                     </div>
 
-                    <div class="people_box-A six columns">
+                    <div class="people_box-A pure-u-md-1-2 pure-u-lg-1-3">
                         <div class="people_box-image-wrap">
                             <img src="public/img/base.png" class="people_box-img"/>
                         </div>
@@ -317,9 +321,9 @@
                     </div>
                 </div>
 
-            <div class="row">
+            <div class="pure-u">
 
-                <div class="people_box-B six columns">
+                <div class="people_box-B pure-u-md-1-2 pure-u-lg-1-3">
                     <div class="people_box-image-wrap">
                         <img src="public/img/base.png" class="people_box-img"/>
                     </div>
@@ -331,13 +335,13 @@
                     </div>
                  </div>
 
-                <div class="people_box-A six columns">
+                <div class="people_box-A pure-u-md-1-2 pure-u-lg-1-3">
                     <div class="people_box-image-wrap">
                         <img src="public/img/base.png" class="people_box-img"/>
                     </div>
                     <div class="people_box-txt--wrap">
                         <p class="people_box-txt">“Phasellus non purus vel arcu tempor<br> commodo. Fusce semper,
-                            purus vel luctus<br> molestie, risus sem cursus neque.”</p>
+                            purus vel luctus molestie, risus sem cursus neque.”</p>
                         <p class="people_box-txt--header">EMMA STONE</p>
                         <p class="people_box-second--txt box-margin">Co-Founder of Shazam</p>
                     </div>
@@ -348,29 +352,29 @@
     </div>
 </div>
 
-<div class="sub">
+<div class="sub" id="contact">
     <div class="container">
-        <div class="row">
+        <div class="pure-u">
             <h5 class="sub_header">GET IN TOUCH</h5>
             <span class="sub_line"></span>
             <p class="sub_txt">1600 Pennsylvania Ave NW, Washington, DC 20500, United States of America.
                 Tel: (202) 456-1111</p>
 
-            <div class="sub_enter-wrap">
-                <form action="#" class="niceform">
-                    <input type="text" name="Name" placeholder="Your Name*" class="sub_name three columns">
-                    <input type="text" name="Email" placeholder="Your Email*" class="sub_email three columns">
+            <div class="sub_enter-wrap pure-u-md-1-1 pure-u-lg-1-4">
+                <form action="#" class="niceform ">
+                    <input type="text" name="Name" placeholder="Your Name*" class="sub_name ">
+                    <input type="text" name="Email" placeholder="Your Email*" class="sub_email ">
                 </form>
             </div>
         </div>
-        <div class="row">
+        <div class="pure-u">
             <form action="#" class="sub_massage-wrap">
-                <textarea name="massage" placeholder="Your Massage*" class="sub_massage seven columns"></textarea>
+                <textarea name="massage" placeholder="Your Massage*" class="sub_massage pure-u-md-1-2 pure-u-lg-1-4"></textarea>
             </form>
         </div>
-        <div class="row">
+        <div class="pure-u">
             <button class="sub_btn">
-                <a href="#" class="sub_btn-link">SEND MESSAGE</a>
+                <a href="javascript:;" class="sub_btn-link">SEND MESSAGE</a>
             </button>
         </div>
     </div>
@@ -378,7 +382,7 @@
 
 <div class="footer">
     <div class="container">
-        <div class="row">
+        <div class="pure-u">
             <ul class="footer-nav">
                 <li class="footer_list"><a href="#" class="footer_link">Facebook</a></li>
                 <li class="footer_list"><a href="#" class="footer_link">Twitter</a></li>

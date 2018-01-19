@@ -195,33 +195,6 @@ table {
   .port_btn {
     margin-bottom: 60px !important; } }
 
-@media screen and (max-width: 1023px) {
-  .niceform {
-    float: left;
-    margin-left: 70px;
-    width: 80%; }
-  .sub_enter-wrap {
-    margin: 0 !important; }
-  .sub_name {
-    width: 40% !important; }
-  .sub_email {
-    width: 40% !important; }
-  .sub_massage-wrap {
-    margin: 0 !important; }
-  .sub_massage {
-    width: 80% !important; }
-  .sub_btn {
-    margin-bottom: 60px !important; } }
-
-@media screen and (max-width: 767px) {
-  .sub_header {
-    font-size: 30px !important; }
-  .niceform {
-    float: left !important;
-    padding-bottom: 30px; }
-  .sub_name {
-    margin-right: 10px !important; } }
-
 * {
   box-sizing: border-box; }
 
@@ -596,15 +569,14 @@ table {
     color: #ffffff; }
   .people .people_box-image-wrap {
     float: left;
-    margin-right: 48px; }
+    padding-right: 48px; }
   .people .people_box-txt--wrap {
-    text-align: left;
-    margin-left: 30px; }
+    text-align: left; }
     .people .people_box-txt--wrap .people_box-txt {
       text-align: left;
       color: #ffffff;
       font-family: "RegularWeb";
-      font-size: 18px;
+      font-size: 16px;
       font-style: italic;
       line-height: 31.2px;
       letter-spacing: 0.35px;
@@ -630,22 +602,20 @@ table {
       margin: 9px 0 158px 145px; }
     .people .people_box-txt--wrap .box-margin {
       margin-bottom: 125px; }
+  .people .left-p {
+    margin-left: 100px; }
 
 .sub {
   padding-top: 120px;
   background-color: #3e5697;
   text-align: center; }
   .sub ::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
     color: #ffffffff; }
   .sub ::-moz-placeholder {
-    /* Firefox 19+ */
     color: #ffffffff; }
   .sub :-ms-input-placeholder {
-    /* IE 10+ */
     color: #ffffffff; }
   .sub :-moz-placeholder {
-    /* Firefox 18- */
     color: #ffffffff; }
   .sub .sub_header {
     font-family: "RegularWeb";
@@ -675,7 +645,7 @@ table {
     color: #ffffffff;
     padding: 13px 0 76px 0; }
   .sub .sub_enter-wrap {
-    margin-left: 75px; }
+    margin-left: 160px; }
     .sub .sub_enter-wrap .niceform .sub_name {
       font-family: "RegularWeb";
       font-size: 18px;
@@ -684,11 +654,13 @@ table {
       letter-spacing: 0.36px;
       margin: 0;
       color: #ffffffff;
-      width: 44%;
+      width: 40%;
       height: 56px;
       background-color: #273a71;
       border: none;
-      margin-right: 40px; }
+      margin: 0 38px 27px 0px;
+      padding-left: 25px;
+      float: left; }
     .sub .sub_enter-wrap .niceform .sub_email {
       font-family: "RegularWeb";
       font-size: 18px;
@@ -697,12 +669,13 @@ table {
       letter-spacing: 0.36px;
       margin: 0;
       color: #ffffffff;
-      width: 44%;
+      width: 40%;
       height: 56px;
       background-color: #273a71;
-      border: none; }
+      border: none;
+      padding-left: 25px;
+      float: left; }
   .sub .sub_massage-wrap {
-    margin-left: 73px;
     padding-top: 27px; }
     .sub .sub_massage-wrap .sub_massage {
       font-family: "RegularWeb";
@@ -712,10 +685,12 @@ table {
       letter-spacing: 0.36px;
       margin: 0;
       color: #ffffffff;
-      width: 92.3%;
+      width: 84.2%;
       height: 200px;
       background-color: #273a71;
-      border: none; }
+      border: none;
+      float: left;
+      padding-left: 25px; }
   .sub .sub_btn {
     width: 293px;
     height: 70px;

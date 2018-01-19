@@ -47,7 +47,7 @@ gulp.task('js', function () {
         .pipe(gulp.dest('public/js'));
 });
 
-gulp.task('default', function () {
+gulp.task('zsolt', function () {
     gulp.watch(paths.scss, ['scss']);
     // gulp.watch(paths.css, ['css']);
     gulp.watch(paths.js, ['js']);
@@ -56,7 +56,7 @@ gulp.task('default', function () {
 
 var server = require('gulp-server-livereload');
 
-gulp.task('default', function() {
+gulp.task('webserver', function() {
     gulp.src('')
         .pipe(server({
             livereload: true,

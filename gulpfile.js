@@ -54,14 +54,14 @@ gulp.task('zsolt', function () {
 });
 
 
-var server = require('gulp-server-livereload');
-
-gulp.task('webserver', function() {
-    gulp.src('')
-        .pipe(server({
-            livereload: true,
-            directoryListing: false,
-            defaultFile: 'index.html',
-            open: false
-        }));
-});
+// var server = require('gulp-server-livereload');
+//
+// gulp.task('webserver', function() {
+//     gulp.src('')
+//         .pipe(server({
+//             livereload: true,
+//             directoryListing: false,
+//             defaultFile: 'index.html',
+//             open: false
+//         }));
+// });

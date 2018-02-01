@@ -47,21 +47,25 @@ gulp.task('js', function () {
         .pipe(gulp.dest('public/js'));
 });
 
-gulp.task('zsolt', function () {
+gulp.task('default', function () {
     gulp.watch(paths.scss, ['scss']);
     // gulp.watch(paths.css, ['css']);
     gulp.watch(paths.js, ['js']);
 });
 
 
-// var server = require('gulp-server-livereload');
-//
-// gulp.task('webserver', function() {
-//     gulp.src('')
-//         .pipe(server({
-//             livereload: true,
-//             directoryListing: false,
-//             defaultFile: 'index.html',
-//             open: false
-//         }));
-// });
+var gulp = require('gulp');
+var webserver = require('gulp-webserver');
+
+gulp.task('server', function() {
+    gulp.src('')
+        .pipe(webserver({
+            livereload: true,
+            fallback: 'index.html',
+            port: 3000,
+            directoryListing: false,
+            open: false
+        }));
+});
+
+

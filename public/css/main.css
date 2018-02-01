@@ -143,58 +143,6 @@ table {
   font-family: 'BoldWeb';
   src: url("../fonts/webbold/web-bold.woff2"), url("../fonts/webbold/web-bold.woff"); }
 
-@media screen and (max-width: 1023px) {
-  .service_box-wrap {
-    padding-bottom: 30px !important; }
-  .servie_box {
-    padding-bottom: 0; }
-  .service_box-txt {
-    padding-bottom: 50px; } }
-
-@media screen and (max-width: 767px) {
-  .header {
-    font-size: 30px !important; }
-  .service_header {
-    font-size: 30px !important; } }
-
-@media screen and (max-width: 1023px) {
-  .team_box {
-    padding-bottom: 60px !important; }
-  .team_box-navigation {
-    text-align: center;
-    padding-bottom: 23px; }
-  .team_box-navigation-padding {
-    padding-left: 20px; } }
-
-@media screen and (max-width: 767px) {
-  .team_header {
-    font-size: 30px !important; } }
-
-@media screen and (max-width: 1023px) {
-  .skill {
-    padding-bottom: 60px !important; }
-  .skill_box {
-    padding-bottom: 30px; }
-  .port_btn {
-    margin-bottom: 60px !important; } }
-
-@media screen and (max-width: 767px) {
-  .skill {
-    padding-bottom: 30px !important; }
-  .skill_header {
-    font-size: 30px !important; }
-  .skill_box {
-    margin-bottom: 60px !important; } }
-
-@media screen and (max-width: 767px) {
-  .port_header {
-    font-size: 30px !important; }
-  .port_box-image {
-    width: 60% !important;
-    display: inline-block; }
-  .port_btn {
-    margin-bottom: 60px !important; } }
-
 * {
   box-sizing: border-box; }
 
@@ -205,7 +153,7 @@ table {
 
 .welcome {
   background: #86539a;
-  padding-top: 70px;
+  padding-top: 34px;
   text-align: center; }
   .welcome .welcome_icon {
     float: left;
@@ -223,8 +171,8 @@ table {
       line-height: 18px;
       text-transform: uppercase;
       padding-top: 7px;
-      margin-left: 5px;
-      margin-top: 7px;
+      margin-left: 10px;
+      margin-top: 4px;
       cursor: pointer; }
       .welcome .welcome_nav .welcome_nav-list:hover {
         background: #643d78;
@@ -232,12 +180,13 @@ table {
     .welcome .welcome_nav .welcome_nav-link {
       color: #ffffff; }
   .welcome .header {
-    padding: 140px 0 54px 0;
+    padding: 175px 0 54px 0;
     color: #f7f3ea;
     font-family: "RegularWeb";
     font-size: 42px;
     font-weight: 700;
-    line-height: 48.82px; }
+    line-height: 48.82px;
+    letter-spacing: 0.8px; }
   .welcome .welcome_btn {
     width: 293px;
     height: 70px;
@@ -254,7 +203,8 @@ table {
       line-height: 26px;
       letter-spacing: 0.36px;
       margin: 0;
-      color: #ffffff; }
+      color: #ffffff;
+      text-transform: uppercase; }
 
 .service {
   background-color: #17c2a4;
@@ -298,7 +248,8 @@ table {
       text-transform: uppercase;
       letter-spacing: 0.48px;
       color: #ffffff;
-      padding-top: 60px; }
+      padding-top: 60px;
+      padding-right: 14px; }
     .service .service_box-wrap .service_box-title-B {
       font-family: "RegularWeb";
       font-size: 24px;
@@ -307,7 +258,7 @@ table {
       text-transform: uppercase;
       letter-spacing: 0.48px;
       color: #ffffff;
-      padding-top: 48px; }
+      padding: 48px 14px 0 0; }
     .service .service_box-wrap .service_box-title-C {
       font-family: "RegularWeb";
       font-size: 24px;
@@ -316,7 +267,7 @@ table {
       text-transform: uppercase;
       letter-spacing: 0.48px;
       color: #ffffff;
-      padding-top: 53px; }
+      padding: 53px 14px 0 0; }
     .service .service_box-wrap .service_box-title-D {
       font-family: "RegularWeb";
       font-size: 24px;
@@ -325,7 +276,7 @@ table {
       text-transform: uppercase;
       letter-spacing: 0.48px;
       color: #ffffff;
-      padding-top: 35px; }
+      padding: 35px 14px 0 0; }
     .service .service_box-wrap .service_box-txt {
       font-family: "RegularWeb";
       font-size: 16px;
@@ -334,7 +285,7 @@ table {
       letter-spacing: 0.32px;
       text-align: center;
       color: #ffffff;
-      margin-top: 27px; }
+      margin-top: 20px; }
 
 .team {
   background-color: #e7f1f8;
@@ -349,7 +300,7 @@ table {
     letter-spacing: 4px;
     margin: 0;
     color: #3c4761;
-    padding-bottom: 13px;
+    padding-bottom: 9px;
     margin: 0; }
   .team .team_line {
     text-align: center;
@@ -361,7 +312,7 @@ table {
   .team .team_txt {
     color: #3c4761;
     font-family: "RegularWeb";
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 26.84px;
     letter-spacing: 0.36px;
@@ -377,7 +328,7 @@ table {
     text-transform: uppercase;
     letter-spacing: 0.48px;
     color: #27283d;
-    padding: 41px 0 15px 0;
+    padding: 35px 0 15px 0;
     margin: 0; }
   .team .team_box-link {
     color: #30bae7;
@@ -393,9 +344,10 @@ table {
     line-height: 26px;
     letter-spacing: 0.36px;
     margin: 0;
+    font-size: 16px;
     color: #3c4761;
     margin: 0;
-    padding: 30px 0 36px 0; }
+    padding: 21px 0 26px 0; }
   .team .team_box-navigation {
     display: inline-block; }
   .team .team_box-navigation-padding {
@@ -725,5 +677,115 @@ table {
       color: #ffffff; }
       .footer .footer-nav .footer_list .footer_link:hover {
         color: #30bae7; }
+
+@media screen and (max-width: 1023px) {
+  .service_box-wrap {
+    padding-bottom: 30px; }
+  .servie_box {
+    padding-bottom: 0; }
+  .service_box-txt {
+    padding-bottom: 50px; } }
+
+@media screen and (max-width: 767px) {
+  .header {
+    font-size: 30px; }
+  .service_header {
+    font-size: 30px; } }
+
+@media screen and (max-width: 1023px) {
+  .team_box {
+    padding-bottom: 60px; }
+  .team_box-navigation {
+    text-align: center;
+    padding-bottom: 23px; }
+  .team_box-navigation-padding {
+    padding-left: 20px; } }
+
+@media screen and (max-width: 767px) {
+  .team .team_header {
+    font-size: 30px;
+    color: pink; } }
+
+@media screen and (max-width: 1023px) {
+  .skill {
+    padding-bottom: 60px; }
+  .skill_box {
+    padding-bottom: 30px; }
+  .port_btn {
+    margin-bottom: 60px; } }
+
+@media screen and (max-width: 767px) {
+  .skill {
+    padding-bottom: 30px; }
+  .skill_header {
+    font-size: 30px; }
+  .skill_box {
+    margin-bottom: 60px; } }
+
+@media screen and (max-width: 767px) {
+  .port_header {
+    font-size: 30px; }
+  .port_box-image {
+    width: 60%;
+    display: inline-block; }
+  .port_btn {
+    margin-bottom: 60px; } }
+
+@media screen and (max-width: 1023px) {
+  .people_box-txt {
+    font-size: 15px; }
+  .people_box-txt--header {
+    padding-left: 142px;
+    margin: 0;
+    font-size: 20px; }
+  .people_box-second--txt {
+    margin: 0;
+    padding: 10px 0 60px 142px;
+    font-size: 17px; }
+  .box-margin {
+    margin: 0;
+    padding-bottom: 60px; } }
+
+@media screen and (max-width: 767px) {
+  .people_header {
+    font-size: 30px; }
+  .people_box-img {
+    margin-left: 50px; }
+  .people_box-txt--header {
+    padding-left: 195px;
+    margin: 0; }
+  .people_box-second--txt {
+    margin: 0;
+    padding: 10px 0 60px 195px; }
+  .box-margin {
+    margin: 0;
+    padding-bottom: 60px; } }
+
+@media screen and (max-width: 1023px) {
+  .niceform {
+    float: left;
+    margin-left: 70px;
+    width: 80%; }
+  .sub_enter-wrap {
+    margin: 0; }
+  .sub_name {
+    width: 40%; }
+  .sub_email {
+    width: 40%; }
+  .sub_massage-wrap {
+    margin: 0; }
+  .sub_massage {
+    width: 80%; }
+  .sub_btn {
+    margin-bottom: 60px; } }
+
+@media screen and (max-width: 767px) {
+  .sub_header {
+    font-size: 30px; }
+  .niceform {
+    float: left;
+    padding-bottom: 30px; }
+  .sub_name {
+    margin-right: 10px; } }
 
 /*# sourceMappingURL=main.css.map */

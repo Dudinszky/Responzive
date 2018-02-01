@@ -1,10 +1,7 @@
 @import 'base/base';
 @import 'base/reset';
 @import 'base/fonts';
-
 @import 'utilities/mixins';
-
-@import "base/media";
 
 * {
   box-sizing: border-box;
@@ -22,7 +19,7 @@
 
 .welcome {
   background: #86539a;
-  padding-top: 70px;
+  padding-top: 34px;
   text-align: center;
 
   .welcome_icon {
@@ -44,8 +41,8 @@
       line-height: 18px;
       text-transform: uppercase;
       padding-top: 7px;
-      margin-left: 5px;
-      margin-top: 7px;
+      margin-left: 10px;
+      margin-top: 4px;
       cursor: pointer;
       &:hover {
         background: #643d78;
@@ -60,12 +57,13 @@
   }
 
   .header {
-    padding: 140px 0 54px 0;
+    padding: 175px 0 54px 0;
     color: #f7f3ea;
     font-family: "RegularWeb";
     font-size: 42px;
     font-weight: 700;
     line-height: 48.82px;
+    letter-spacing: 0.8px;
 
   }
 
@@ -83,6 +81,8 @@
     .welcome_btn-link {
       @include MiniFont;
       color: #ffffff;
+      text-transform: uppercase;
+
     }
   }
 
@@ -122,31 +122,32 @@
       @include BigBoxFont;
       color: #ffffff;
       padding-top: 60px;
+      padding-right: 14px;
     }
 
     .service_box-title-B {
       @include BigBoxFont;
       color: #ffffff;
-      padding-top: 48px;
+      padding: 48px 14px 0 0;
     }
 
     .service_box-title-C {
       @include BigBoxFont;
       color: #ffffff;
-      padding-top: 53px;
+      padding: 53px 14px 0 0;
     }
 
     .service_box-title-D {
       @include BigBoxFont;
       color: #ffffff;
-      padding-top: 35px;
+      padding: 35px 14px 0 0 ;
     }
 
     .service_box-txt {
       @include MiniBoxFont;
       text-align: center;
       color: #ffffff;
-      margin-top: 27px;
+      margin-top: 20px;
     }
     .rocket-img {
 
@@ -162,7 +163,7 @@
   .team_header {
     @include BigFont;
     color: #3c4761;
-    padding-bottom: 13px;
+    padding-bottom: 9px;
     margin: 0;
   }
 
@@ -173,7 +174,7 @@
   .team_txt {
     color: #3c4761;
     font-family: "RegularWeb";
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 26.84px;
     letter-spacing: 0.36px;
@@ -188,7 +189,7 @@
   .team_box-name {
     @include BigBoxFont;
     color: #27283d;
-    padding: 41px 0 15px 0;
+    padding: 35px 0 15px 0;
     margin: 0;
   }
 
@@ -203,9 +204,10 @@
 
   .team_box-txt {
     @include MiniFont;
+    font-size: 16px;
     color: #3c4761;
     margin: 0;
-    padding: 30px 0 36px 0;
+    padding: 21px 0 26px 0;
   }
 
   .team_box-navigation {
@@ -545,31 +547,4 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@import "base/media";
